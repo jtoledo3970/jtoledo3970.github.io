@@ -106,7 +106,7 @@
                 <i class="lnr lnr-cog"></i>
               </div>
               <h4>Web Development</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummdy nibh euismod tincidunt ut.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
@@ -750,6 +750,10 @@
                       <textarea class="form-control" placeholder="Your Message" rows="11" data-error="Write your message" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
+                    <div>
+                      <div class="g-recaptcha text-center" data-sitekey="6LdcEiwUAAAAAM--qq5OD4rxSElkCXsaBs1ilcg2" data-error="Complete the reCaptcha" required></div>
+                      <div id="msgsubmit" class="help-block with-errors"></div>
+                    </div>
                     <div class="submit-button text-center">
                       <button class="btn btn-common" id="submit" type="submit">Send Message</button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -801,7 +805,10 @@
               </ul>
             </div>
             <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <p>All copyrights reserved &copy; 2017 - Designed & Developed by J. Toledo</a></p>
+              <p><a rel="nofollow" href="legal.html">Terms of Use</a> - <a rel="nofollow" href="legal.html">Privacy Policy</a> - <a rel="nofollow" href="legal.html">Disclaimers</a></p>
+            </div>
+            <div class="site-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
+              <p>All copyrights reserved &copy; 2017 - Designed & Developed by J. Toledo</p>
             </div>
           </div>
         </div>
@@ -842,6 +849,8 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/main.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
 
   </body>
 </html>
