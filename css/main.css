@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #333;
   font-size: 14px;
   font-weight: 300;
@@ -34,7 +34,7 @@ a {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .btn:focus {
   box-shadow: none;
@@ -983,7 +983,7 @@ a:not([href]):not([tabindex]):hover {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .form-control:focus {
   box-shadow: none;
@@ -1045,7 +1045,7 @@ a:not([href]):not([tabindex]):hover {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
 }
 /* ==========================================================================
@@ -1173,7 +1173,7 @@ footer {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
 }
 .back-to-top {
