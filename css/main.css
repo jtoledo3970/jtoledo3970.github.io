@@ -154,74 +154,113 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    Navbar Style
    ========================================================================== */
-.bg-faded {
-  background-color: #fff;
-}
-.logo-menu a {
-  font-size: 20px;
-  color: #fff;
-}
-.menu-bg {
-  background-color: #fff!important;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-  z-index: 999;
-  padding: 3px;
-}
-.menu-bg .menu-button {
-  top: 0;
-}
-.menu-bg .menu-button:hover {
-  cursor: pointer;
-  color: #4676fa;
-}
-.menu-bg .logo-menu a {
-  color: #4676fa;
-}
-.menu-button:hover {
-  cursor: pointer;
-  opacity: #eee;
-}
-.close-button {
-  cursor: pointer;
-}
-.navbar-light .navbar-nav .nav-item {
-  margin-left: 15px;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: #0d3559;
-  padding: 7px 0px;
-  margin-left: 5px;
-  position: relative;
-  font-size: 15px;
-  letter-spacing: 0.3px;
-}
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:hover:before {
-  color: #4676fa;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.active:before,
-.navbar-light .navbar-nav .nav-link.open,
-.navbar-light .navbar-nav .open > .nav-link {
-  color: #4676fa;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-.navbar-light .navbar-toggler {
-  border-color: #333;
-  border-radius: 0px;
-}
-.navbar-light .navbar-toggler {
-  float: right;
-  margin: 10px;
-}
-.navbar-light .navbar-toggler i {
-  color: #333!important;
-}
+   .bg-faded {
+       background-color: #fff;
+   }
+
+   .mainmenu-area {
+       padding: 10px 0;
+       border: none;
+       margin: 0;
+       -webkit-transition: 0.6s;
+       -moz-transition: 0.6s;
+       transition: 0.6s;
+       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+       background-color: #ffffff;
+   }
+
+   .mainmenu-area .menu-button {
+       position: relative;
+       color: #333;
+       line-height: 58px;
+       top: 0;
+       outline: none;
+   }
+
+   .logo-menu a {
+       font-size: 20px;
+       color: #fff;
+   }
+
+   .menu-bg {
+       background-color: #fff !important;
+       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+       z-index: 999;
+       padding: 3px;
+   }
+
+   .menu-bg .menu-button {
+       top: 0;
+   }
+
+   .menu-bg .menu-button:hover {
+       cursor: pointer;
+       color: #4676fa;
+   }
+
+   .menu-bg .logo-menu a {
+       color: #4676fa;
+   }
+
+   .menu-button:hover {
+       cursor: pointer;
+       opacity: #eee;
+   }
+
+   .close-button {
+       cursor: pointer;
+   }
+
+   .navbar-light .navbar-nav .nav-link {
+       color: #333;
+       font-size: 15px;
+       padding: 15px 12px;
+       position: relative;
+   }
+
+   .navbar-brand img {
+       max-width: 115px;
+   }
+
+   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,
+   .navbar-light .navbar-nav .nav-link:hover:before {
+       color: #4676fa;
+       -webkit-transform: scale(1);
+       transform: scale(1);
+   }
+
+   .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
+   .navbar-light .navbar-nav .nav-link.active:before, .navbar-light .navbar-nav .nav-link.open,
+   .navbar-light .navbar-nav .open > .nav-link {
+       color: #4676fa;
+       -webkit-transform: scale(1);
+       transform: scale(1);
+   }
+
+   .navbar-light .navbar-toggler {
+       background: #4676fa;
+       border-radius: 0px;
+       margin: 5px;
+       cursor: pointer;
+       float: right;
+   }
+
+   .navbar-light .navbar-toggler i {
+       color: #fff !important;
+   }
+
+   .collapse.show {
+       background: #f1f1f1;
+       margin-bottom: 10px;
+       -webkit-transition: 0.6s;
+       -moz-transition: 0.6s;
+       transition: 0.6s;
+   }
+
+   .navbar-light .navbar-toggler:active {
+       border: 1px solid #4676fa;
+       color: #4676fa;
+   }
 /* ==========================================================================
    Hero Area Style
    ========================================================================== */
@@ -839,7 +878,7 @@ a:not([href]):not([tabindex]):hover {
   margin-top: 20px;
 }
 /* ==========================================================================
-   Download 
+   Download
    ========================================================================== */
 #download {
   background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
@@ -855,7 +894,7 @@ a:not([href]):not([tabindex]):hover {
   margin-right: 5px;
 }
 /* ==========================================================================
-   Blog 
+   Blog
    ========================================================================== */
 #blog .blog-item-wrapper {
   background: #fff;
