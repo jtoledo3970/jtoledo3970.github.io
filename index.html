@@ -743,7 +743,7 @@
                 <hr class="lines wow zoomIn" data-wow-delay="0.3s">
                 <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">What can we help you with? We are here to answer any questions about our products of services.</p>
               </div>
-              <form id="contactForm">
+              <form id="contactForm" action="https://formspree.io/jose@toledositsolutions.com" method="POST">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -753,19 +753,19 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                      <input type="text" placeholder="Your Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                    <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" name="subject" required data-error="Please enter your subject">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" placeholder="Your Message" rows="11" data-error="Write your message" required></textarea>
+                      <textarea class="form-control" placeholder="Your Message" rows="11" data-error="Write your message" name="message" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
                     <div>
